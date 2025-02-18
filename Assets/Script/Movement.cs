@@ -6,6 +6,13 @@ public class Movement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float turnSpeed = 100f;
+    public float fuel = 100;
+
+    public Manager manager;
+
+    bool isMoving = false;
+    float timer = 0f;
+    float fuelDecreaseInterval = 1f;
 
     void Update()
     {
@@ -17,5 +24,41 @@ public class Movement : MonoBehaviour
 
         transform.Rotate(Vector3.forward, turnDirection * turnSpeed * Time.deltaTime);
 
+        if (moveDirection != 0 || turnDirection != 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+
+        if (isMoving)
+        {
+            timer += Time.deltaTime;
+            if (timer >= fuelDecreaseInterval)
+            {
+                fuel -= 1;
+                timer = 0f;
+                manager.UpdateFuel(fuel);
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Coin"))
+        {
+            manager.UpdateCoin();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Coin"))
+        {
+            manager.UpdateCoin();
+            Destroy(collision.gameObject);
+        }
     }
 }
