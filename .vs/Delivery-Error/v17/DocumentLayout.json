@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\script\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\script\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\arrowui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\arrowui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\playersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\playersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,16 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Phone.cs",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Phone.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Phone.cs",
-              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Phone.cs",
-              "RelativeToolTip": "Assets\\Script\\Phone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "DocumentIndex": 4,
+              "Title": "PlayerSprite.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\PlayerSprite.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerSprite.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\PlayerSprite.cs",
+              "RelativeToolTip": "Assets\\PlayerSprite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:34:06.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T11:16:25.155Z"
             },
             {
               "$type": "Document",
@@ -69,47 +60,9 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Point.cs",
               "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Point.cs",
               "RelativeToolTip": "Assets\\Script\\Point.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:22:27.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ArrowUI.cs",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\ArrowUI.cs",
-              "RelativeDocumentMoniker": "Assets\\ArrowUI.cs",
-              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\ArrowUI.cs",
-              "RelativeToolTip": "Assets\\ArrowUI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:19:11.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Arrow.cs",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Arrow.cs",
-              "RelativeDocumentMoniker": "Assets\\Arrow.cs",
-              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Arrow.cs",
-              "RelativeToolTip": "Assets\\Arrow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:17:22.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Movement.cs",
-              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Movement.cs",
-              "RelativeToolTip": "Assets\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:12:51.069Z"
+              "WhenOpened": "2025-02-18T09:51:54.273Z"
             },
             {
               "$type": "Document",
@@ -119,21 +72,34 @@
               "RelativeDocumentMoniker": "Assets\\Script\\SpawnTarget.cs",
               "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\SpawnTarget.cs",
               "RelativeToolTip": "Assets\\Script\\SpawnTarget.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T08:00:04.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T09:47:03.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Phone.cs",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Phone.cs",
-              "RelativeDocumentMoniker": "Assets\\Phone.cs",
-              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Phone.cs",
-              "RelativeToolTip": "Assets\\Phone.cs",
+              "DocumentIndex": 3,
+              "Title": "Deliver.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Deliver.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Deliver.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Deliver.cs",
+              "RelativeToolTip": "Assets\\Script\\Deliver.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T06:45:51.834Z"
+              "WhenOpened": "2025-02-18T09:51:13.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Movement.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Movement.cs",
+              "RelativeToolTip": "Assets\\Script\\Movement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:42:11.962Z",
+              "EditorCaption": ""
             }
           ]
         }

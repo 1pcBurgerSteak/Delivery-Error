@@ -7,79 +7,41 @@ using static UnityEngine.GraphicsBuffer;
 public class SpawnTarget : MonoBehaviour
 {
     public GameObject targetPrefab;
+    public Button[] customerList;
     public Transform[] spawnLocation;
     public Point point;
-    public GameObject phone;
-    public List<Button> buttons = new List<Button>();
-    public Button[] buttonArray;
-    public bool delivered;
-    Target target;
-    ArrowUI arrow;
+    Deliver deliverScript;
+    int customerNumber = -1;
 
-    public static SpawnTarget instance;
-
-    public int i = 0;
-
+    public GameObject phoneHome;
+    public GameObject arrowUI;
     void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        delivered = false;
-        arrow = GetComponent<ArrowUI>();
 
-        
-        foreach (Button btn in buttonArray)
-        {
-            btn.onClick.AddListener(() => buttons.Add(btn));
-        }
     }
 
     void Update()
     {
-      
-
-        if (delivered)
+        if (deliverScript.arrived == true)
         {
-            
-            checker();
+            customerList[customerNumber].interactable = false;
+            phoneHome.SetActive(true);
+            arrowUI.SetActive(false);
+            customerNumber = -1;
         }
+    }
+
+    public void CustomerNumber(int customerNumber)
+    {
+        this.customerNumber = customerNumber;
     }
 
     public void TargetSpawn()
     {
-        GameObject spawnedTarget = Instantiate(targetPrefab, spawnLocation[i].position, Quaternion.identity);
+        GameObject spawnedTarget = Instantiate(targetPrefab, spawnLocation[0].position, Quaternion.identity);
         point.target = spawnedTarget.transform;
+
+        deliverScript = spawnedTarget.GetComponent<Deliver>();
     }
 
-    //public void Comparison()
-    //{
-        
-    //    if (target.canbe == true)
-    //    {
-    //        delivered = true;
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("No similarities");
-    //    }
-    //}
-
-    public void checker()
-    {
-        for (int j = 0; j < buttons.Count; j++)
-        {
-            Button btnInArray = buttons[j];
-
-            
-            btnInArray.interactable = false;
-            btnInArray.image.color = Color.green;
-            Debug.Log(btnInArray.name);
-            phone.SetActive(true);
-            delivered = false;
-        
-           
-        }
-    }
 }

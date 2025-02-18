@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Phone : MonoBehaviour
 {
     public RectTransform uiTransform;
     public void Open()
     {
-        SetUIPosition(-60f);
+        SetUIPosition(-240f);
     }
 
     public void Close()
     {
-        SetUIPosition(-265f);
+        SetUIPosition(-680f);
     }
 
     private void SetUIPosition(float targetPosY)
