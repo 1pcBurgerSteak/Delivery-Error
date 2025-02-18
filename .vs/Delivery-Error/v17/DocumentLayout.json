@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\script\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\script\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\playersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\playersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\playersprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,15 +42,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PlayerSprite.cs",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\PlayerSprite.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerSprite.cs",
-              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\PlayerSprite.cs",
-              "RelativeToolTip": "Assets\\PlayerSprite.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\PlayerSprite.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerSprite.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\PlayerSprite.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerSprite.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T11:16:25.155Z"
+              "WhenOpened": "2025-02-18T11:22:56.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,23 +63,25 @@
               "RelativeToolTip": "Assets\\Script\\Point.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:51:54.273Z"
+              "WhenOpened": "2025-02-18T09:51:54.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SpawnTarget.cs",
               "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\SpawnTarget.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SpawnTarget.cs",
               "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\SpawnTarget.cs",
               "RelativeToolTip": "Assets\\Script\\SpawnTarget.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAAlAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:47:03.64Z"
+              "WhenOpened": "2025-02-18T09:47:03.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Deliver.cs",
               "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Deliver.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Deliver.cs",
@@ -90,13 +93,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Movement.cs",
               "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Movement.cs",
               "RelativeToolTip": "Assets\\Script\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:42:11.962Z",
               "EditorCaption": ""

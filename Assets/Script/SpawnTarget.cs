@@ -11,7 +11,7 @@ public class SpawnTarget : MonoBehaviour
     public Transform[] spawnLocation;
     public Point point;
     Deliver deliverScript;
-    int customerNumber = -1;
+    int customerNumber = 0;
 
     public GameObject phoneHome;
     public GameObject arrowUI;
@@ -27,7 +27,7 @@ public class SpawnTarget : MonoBehaviour
             customerList[customerNumber].interactable = false;
             phoneHome.SetActive(true);
             arrowUI.SetActive(false);
-            customerNumber = -1;
+            customerNumber = 0;
         }
     }
 
