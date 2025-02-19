@@ -45,14 +45,6 @@ public class Movement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Coin"))
-        {
-            manager.UpdateCoin();
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Coin"))
@@ -60,5 +52,12 @@ public class Movement : MonoBehaviour
             manager.UpdateCoin();
             Destroy(collision.gameObject);
         }
+
+        if (collision.CompareTag("Delivery"))
+        {
+            manager.UpdateDelivery();
+            Destroy(collision.gameObject);
+        }
+
     }
 }

@@ -7,10 +7,14 @@ using TMPro;
 
 public class Manager : MonoBehaviour
 {
+    private int delivered = 0;
+
     public int coins = 0;
-    public int currentFuel = 100;
+    public float currentFuel = 100;
     public int currentDamage = 100;
     public float currentSpeed = 5f;
+
+    public GameObject upgradePanel;
 
     public TextMeshProUGUI coinText;
     public GameObject fuelArrow;
@@ -24,7 +28,10 @@ public class Manager : MonoBehaviour
 
     void Update()
     {
-        
+        if(delivered >= 5)
+        {
+
+        }
     }
 
     public void SaveStats()
@@ -52,7 +59,18 @@ public class Manager : MonoBehaviour
 
     public void UpdateFuel(float fuel)
     {
+        currentFuel = fuel;
         float newRotation = fuel;
         fuelArrowTransform.localRotation = Quaternion.Euler(0, 0, newRotation);
+    }
+
+    public void UpdateDelivery()
+    {
+        delivered += 1;
+    }
+
+    public void ShowUpgrade()
+    {
+
     }
 }

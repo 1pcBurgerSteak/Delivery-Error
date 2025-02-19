@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawntarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|c:\\users\\ivan\\documents\\github\\delivery-error\\assets\\script\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB51B3D-EAEC-36B2-5903-4D7837B5BBAE}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Movement.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Movement.cs",
+              "RelativeToolTip": "Assets\\Script\\Movement.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T12:50:15.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Manager.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Manager.cs",
+              "RelativeToolTip": "Assets\\Script\\Manager.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAqwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:48:39.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Deliver.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Deliver.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Deliver.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Deliver.cs",
+              "RelativeToolTip": "Assets\\Script\\Deliver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:47:12.524Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -18,6 +78,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpawnTarget.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\SpawnTarget.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\SpawnTarget.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\SpawnTarget.cs",
+              "RelativeToolTip": "Assets\\Script\\SpawnTarget.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA1wAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:40:45.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Phone.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Phone.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Phone.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Documents\\Github\\Delivery-Error\\Assets\\Script\\Phone.cs",
+              "RelativeToolTip": "Assets\\Script\\Phone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:40:37.29Z",
+              "EditorCaption": ""
             }
           ]
         }
