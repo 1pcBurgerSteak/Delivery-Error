@@ -64,6 +64,7 @@
     <Compile Include="Assets\Script\Point.cs" />
     <Compile Include="Assets\Script\PlayerStats.cs" />
     <Compile Include="Assets\Script\Manager.cs" />
+    <Compile Include="Assets\Script\Follow.cs" />
     <Compile Include="Assets\Script\Phone.cs" />
     <Compile Include="Assets\Script\PlayerSprite.cs" />
   </ItemGroup>

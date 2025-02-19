@@ -55,7 +55,8 @@ public class Movement : MonoBehaviour
 
         if (collision.CompareTag("Delivery"))
         {
-            manager.UpdateDelivery();
+            Deliver deliverScript = collision.GetComponent<Deliver>();
+            manager.UpdateDelivery(deliverScript.assignedNum);
             Destroy(collision.gameObject);
         }
 

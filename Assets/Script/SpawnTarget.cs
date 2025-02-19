@@ -12,7 +12,6 @@ public class SpawnTarget : MonoBehaviour
     public Point point;
     Deliver deliverScript;
     int customerNumber = 0;
-    bool arrived = false;
 
     public GameObject phoneHome;
     public GameObject upgradePanel;
@@ -24,14 +23,7 @@ public class SpawnTarget : MonoBehaviour
 
     void Update()
     {
-        if (arrived == true)
-        {
-            customerList[customerNumber].interactable = false;
-            phoneHome.SetActive(true);
-            arrowUI.SetActive(false);
-            customerNumber = 0;
-            arrived = false;
-        }
+
     }
 
     public void CustomerNumber(int customerNumber)
@@ -45,7 +37,7 @@ public class SpawnTarget : MonoBehaviour
         point.target = spawnedTarget.transform;
 
         deliverScript = spawnedTarget.GetComponent<Deliver>();
-        arrived = deliverScript.arrived;
+        deliverScript.assignedNum = customerNumber;
     }
 
 }
