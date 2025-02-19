@@ -56,7 +56,6 @@
     <Compile Include="Assets\Script\Movement.cs" />
     <Compile Include="Assets\Script\ArrowUI.cs" />
     <Compile Include="Assets\Script\Deliver.cs" />
-    <Compile Include="Assets\Script\Save.cs" />
     <Compile Include="Assets\Script\Upgrades.cs" />
     <Compile Include="Assets\Script\CameraMove.cs" />
     <Compile Include="Assets\Script\Target.cs" />

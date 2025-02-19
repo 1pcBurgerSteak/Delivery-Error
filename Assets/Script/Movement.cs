@@ -60,5 +60,10 @@ public class Movement : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
+        if (collision.CompareTag("Shop"))
+        {
+            manager.ShowUpgrade();
+        }
+
     }
 }

@@ -14,13 +14,18 @@ public class Manager : MonoBehaviour
     public int currentDamage = 100;
     public float currentSpeed = 5f;
 
+    public Point point;
+    public GameObject finishedPanel;
     public GameObject phoneContent;
     public GameObject arrowUI;
     public Button[] deliveryButton;
-    public GameObject upgradePanel;
+    
     public TextMeshProUGUI coinText;
     public GameObject fuelArrow;
     RectTransform fuelArrowTransform;
+
+    public GameObject shop;
+    public GameObject upgradePanel;
 
     void Start()
     {
@@ -69,14 +74,18 @@ public class Manager : MonoBehaviour
         deliveryButton[assignedNum].interactable = false;
         phoneContent.SetActive(true);
         arrowUI.SetActive(false);
-        if (delivered >= 5)
+        if (delivered >= 1)
         {
-
+            shop.SetActive(true);
+            point.target = shop.transform;
+            phoneContent.SetActive (false);
+            arrowUI.SetActive(true);
+            finishedPanel.SetActive(true);
         }
     }
 
     public void ShowUpgrade()
     {
-
+        upgradePanel.SetActive(true);
     }
 }
