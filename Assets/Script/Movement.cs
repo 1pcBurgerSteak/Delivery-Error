@@ -49,7 +49,7 @@ public class Movement : MonoBehaviour
     {
         if (collision.CompareTag("Coin"))
         {
-            manager.UpdateCoin();
+            manager.UpdateCoin(100);
             Destroy(collision.gameObject);
         }
 

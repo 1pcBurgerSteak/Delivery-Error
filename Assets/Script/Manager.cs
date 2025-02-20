@@ -26,6 +26,9 @@ public class Manager : MonoBehaviour
 
     public GameObject shop;
     public GameObject upgradePanel;
+    public Slider fuelSlider;
+    public Slider healthSlider;
+    public Slider speedSlider;
 
     void Start()
     {
@@ -55,9 +58,9 @@ public class Manager : MonoBehaviour
         currentDamage = PlayerPrefs.GetInt("Damage", 100);
     }
 
-    public void UpdateCoin()
+    public void UpdateCoin(int coins)
     {
-        coins += 1;
+        this.coins = coins;
         coinText.text = ": " + coins;
     }
 
@@ -87,5 +90,20 @@ public class Manager : MonoBehaviour
     public void ShowUpgrade()
     {
         upgradePanel.SetActive(true);
+        fuelSlider.value = currentFuel;
+        healthSlider.value = currentDamage;
+        if(currentSpeed == 5f)
+        {
+            speedSlider.value = 0;
+        }
+        else
+        {
+            speedSlider.value = currentSpeed / 5;
+        }
+    }
+
+    public void Continue()
+    {
+        SaveStats();
     }
 }
