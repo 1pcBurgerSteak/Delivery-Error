@@ -9,11 +9,17 @@ public class Movement : MonoBehaviour
     public float fuel = 100;
 
     public Manager manager;
-
+    public bool chase = false;
+    public bool chase2 = false;
     bool isMoving = false;
     float timer = 0f;
     float fuelDecreaseInterval = 1f;
 
+    private DOG dog;
+    private void Start()
+    {
+        dog = FindObjectOfType<DOG>();
+    }
     void Update()
     {
         float moveDirection = Input.GetAxis("Vertical");
@@ -63,6 +69,15 @@ public class Movement : MonoBehaviour
         if (collision.CompareTag("Shop"))
         {
             manager.ShowUpgrade();
+        }
+
+        if (collision.gameObject.CompareTag("Minimum") && dog.back == false)
+        {
+            chase = true;
+        }
+        if (collision.gameObject.CompareTag("Min") && dog.back == false)
+        {
+            chase2 = true;
         }
 
     }
