@@ -7,7 +7,23 @@ public class PlayerSprite : MonoBehaviour
     public GameObject playerRotation; // Reference to the GameObject that controls rotation
     private SpriteRenderer playerSpriteRenderer;
     public Sprite[] playerSprite;
+    public static PlayerSprite instance;
 
+    //void Awake()
+    //{
+
+    //    if (instance == null)
+    //    {
+    //        instance = this;
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //    else
+    //    {
+    //        Destroy(gameObject);
+    //    }
+
+
+    //}
     void Start()
     {
         playerSpriteRenderer = GetComponent<SpriteRenderer>();

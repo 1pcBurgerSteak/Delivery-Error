@@ -15,10 +15,26 @@ public class Upgrades : MonoBehaviour
     public Slider healthSlider;
     public Slider speedSlider;
     public TextMeshProUGUI speedCost;
-
+    public static Upgrades instance;
     int upgradeCost = 0;
+    //void Awake()
+    //{
+
+    //    if (instance == null)
+    //    {
+    //        instance = this;
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //    else
+    //    {
+    //        Destroy(gameObject);
+    //    }
+
+
+    //}
     void Start()
     {
+        manager = FindObjectOfType<Manager>();
         coins = manager.coins;
     }
 

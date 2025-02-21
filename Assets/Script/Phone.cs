@@ -6,6 +6,22 @@ using UnityEngine.UI;
 public class Phone : MonoBehaviour
 {
     public RectTransform uiTransform;
+    public static Phone instance;
+    void Awake()
+    {
+
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+
+    }
     public void Open()
     {
         SetUIPosition(-240f);

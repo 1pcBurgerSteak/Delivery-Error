@@ -5,6 +5,23 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     int coinCollected = 0;
+
+    public static PlayerStats instance;
+    //void Awake()
+    //{
+
+    //    if (instance == null)
+    //    {
+    //        instance = this;
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //    else
+    //    {
+    //        Destroy(gameObject);
+    //    }
+
+
+    //}
     void Start()
     {
         

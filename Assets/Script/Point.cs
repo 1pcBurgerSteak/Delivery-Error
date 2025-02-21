@@ -5,6 +5,22 @@ using UnityEngine;
 public class Point : MonoBehaviour
 {
     public Transform target;
+    public static Point instance;
+    void Awake()
+    {
+
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+
+    }
     void Start()
     {
 

@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 5f;
     public float turnSpeed = 100f;
     public float fuel = 100;
-
+    //public static Movement instance;
     public Manager manager;
     public bool chase = false;
     public bool chase2 = false;
@@ -15,9 +15,12 @@ public class Movement : MonoBehaviour
     float timer = 0f;
     float fuelDecreaseInterval = 1f;
 
+   
     private DOG dog;
+
     private void Start()
     {
+        manager = FindObjectOfType<Manager>();
         dog = FindObjectOfType<DOG>();
     }
     void Update()
@@ -68,6 +71,7 @@ public class Movement : MonoBehaviour
 
         if (collision.CompareTag("Shop"))
         {
+            //pedena = true;
             manager.ShowUpgrade();
         }
 
