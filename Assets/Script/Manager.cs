@@ -28,6 +28,7 @@ public class Manager : MonoBehaviour
     public GameObject upgradePanel;
     public Slider fuelSlider;
     public Slider healthSlider;
+    public Slider healthSlider2;
     public Slider speedSlider;
 
     void Start()
@@ -56,6 +57,11 @@ public class Manager : MonoBehaviour
         currentSpeed = PlayerPrefs.GetFloat("Speed", 5f);
         coins = PlayerPrefs.GetInt("Coins", 0);
         currentDamage = PlayerPrefs.GetInt("Damage", 100);
+    }
+
+    public void UpdateHealth(int damage)
+    {
+        currentDamage -= damage;
     }
 
     public void UpdateCoin(int coins)
