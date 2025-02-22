@@ -272,14 +272,14 @@ public class Manager : MonoBehaviour
         } else if (val == 2) {
 
             police.SetActive(true);
-            Dog.SetActive(false);
+            //Dog.SetActive(false);
             audioManager.PlaySFX(audioManager.police_car);
         }
         else if (val == 3)
         {
 
             robber.SetActive(true);
-            police.SetActive(false);
+            //police.SetActive(false);
             audioManager.StopSFX();
 
 
@@ -288,25 +288,25 @@ public class Manager : MonoBehaviour
         {
 
             baricade.SetActive(true);
-            robber.SetActive(false);
+            //robber.SetActive(false);
            
         }
         else if (val == 5)
         {
 
             UFO.SetActive(true);
-            baricade.SetActive(false);
+            //baricade.SetActive(false);
             
         }
-        else if (val == 6)
-        {
+        //else if (val == 6)
+        //{
 
-            UFO.SetActive(true);
-            baricade.SetActive(true);
-            police.SetActive(true);
-            robber.SetActive(true);
-            Dog.SetActive(true);
+        //    UFO.SetActive(true);
+        //    baricade.SetActive(true);
+        //    police.SetActive(true);
+        //    robber.SetActive(true);
+        //    Dog.SetActive(true);
             
-        }
+        //}
     } 
 }
