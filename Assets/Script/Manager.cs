@@ -17,13 +17,13 @@ public class Manager : MonoBehaviour
     public float currentFuel = 100;
     public int currentDamage = 100;
     public float currentSpeed = 5f;
-
+    public int anomalycount = 0;
     public Point point;
     public GameObject finishedPanel;
     public GameObject phoneContent;
     public GameObject arrowUI;
     public Button[] deliveryButton;
-    
+
     public TextMeshProUGUI coinText;
     public GameObject fuelArrow;
     RectTransform fuelArrowTransform;
@@ -38,8 +38,9 @@ public class Manager : MonoBehaviour
 
     public GameObject Dog;
     public GameObject police;
-    //public GameObject[] baricade;
+    public GameObject baricade;
     public GameObject robber;
+    public GameObject UFO;
 
     private void Awake()
     {
@@ -134,7 +135,7 @@ public class Manager : MonoBehaviour
 
     //void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     //{
-       
+
     //    if (coinText == null)
     //        coinText = GameObject.Find("CoinText")?.GetComponent<TextMeshProUGUI>();
 
@@ -164,11 +165,22 @@ public class Manager : MonoBehaviour
     //}
     void LateUpdate()
     {
-    arrowUI = GameObject.Find("Arrow");
-        spawn(counts);
+        arrowUI = GameObject.Find("Arrow");
+        spawn(anomalycount);
         UpdateCoin(coins);
         UpdateFuel(currentFuel);
         UpdateHealth(currentDamage);
+
+        if (delivered == 5)
+        {
+            for(int i = 0; i <= deliveryButton.Length; i++)
+            {
+                deliveryButton[i].interactable = true;
+            }
+            anomalycount = +1;
+            delivered = 0;
+
+        }
     }
 
     public void SaveStats()
@@ -214,14 +226,15 @@ public class Manager : MonoBehaviour
         phoneContent.SetActive(true);
         if (delivered >= 1)
         {
-            
+
             shop.SetActive(true);
             point.target = shop.transform;
-            phoneContent.SetActive (false);
+            phoneContent.SetActive(false);
             arrowUI.SetActive(true);
             finishedPanel.SetActive(true);
         }
-     
+
+
     }
 
     public void ShowUpgrade()
@@ -229,7 +242,7 @@ public class Manager : MonoBehaviour
         upgradePanel.SetActive(true);
         fuelSlider.value = currentFuel;
         healthSlider.value = currentDamage;
-        if(currentSpeed == 5f)
+        if (currentSpeed == 5f)
         {
             speedSlider.value = 0;
         }
@@ -243,7 +256,7 @@ public class Manager : MonoBehaviour
     {
         SaveStats();
     }
-   public void count()
+    public void count()
     {
         counts = counts + 1;
         Debug.Log(counts);
@@ -251,11 +264,11 @@ public class Manager : MonoBehaviour
 
     public void spawn(int val)
     {
-        
-           if (val == 1)
+
+        if (val == 1)
         {
             Dog.SetActive(true);
-         
+
         } else if (val == 2) {
 
             police.SetActive(true);
@@ -268,6 +281,32 @@ public class Manager : MonoBehaviour
             robber.SetActive(true);
             police.SetActive(false);
             audioManager.StopSFX();
+
+
         }
-    }
+        else if (val == 4)
+        {
+
+            baricade.SetActive(true);
+            robber.SetActive(false);
+           
+        }
+        else if (val == 5)
+        {
+
+            UFO.SetActive(true);
+            baricade.SetActive(false);
+            
+        }
+        else if (val == 6)
+        {
+
+            UFO.SetActive(true);
+            baricade.SetActive(true);
+            police.SetActive(true);
+            robber.SetActive(true);
+            Dog.SetActive(true);
+            
+        }
+    } 
 }

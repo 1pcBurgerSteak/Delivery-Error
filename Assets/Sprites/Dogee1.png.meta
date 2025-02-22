@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: b4b201e3812e3704486a742dd5721001
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6366809785270866178
+    second: Dogee1_0
+  - first:
+      213: -7813551188465256989
+    second: Dogee1_1
+  - first:
+      213: 3570667129031347817
+    second: Dogee1_2
+  - first:
+      213: -4523098708240556523
+    second: Dogee1_3
+  - first:
+      213: 4401525239530494307
+    second: Dogee1_4
+  - first:
+      213: 3971750675689503434
+    second: Dogee1_5
+  - first:
+      213: 1975274667107538691
+    second: Dogee1_6
+  - first:
+      213: -308319686322037536
+    second: Dogee1_7
+  - first:
+      213: -8506534722316038153
+    second: Dogee1_8
+  - first:
+      213: 6014512716192145766
+    second: Dogee1_9
+  - first:
+      213: 4741892636254016577
+    second: Dogee1_10
+  - first:
+      213: -2865810272681700195
+    second: Dogee1_11
+  - first:
+      213: -1195523188578043410
+    second: Dogee1_12
+  - first:
+      213: 7992729565745887687
+    second: Dogee1_13
+  - first:
+      213: 3974000069084004129
+    second: Dogee1_14
+  - first:
+      213: 4405860094600411473
+    second: Dogee1_15
+  - first:
+      213: 7165466462132328276
+    second: Dogee1_16
+  - first:
+      213: -7206455525157236653
+    second: Dogee1_17
+  - first:
+      213: -6917531724826234834
+    second: Dogee1_18
+  - first:
+      213: -2627508518188818102
+    second: Dogee1_19
+  - first:
+      213: -6390694565059208477
+    second: Dogee1_20
+  - first:
+      213: -5476728568327142629
+    second: Dogee1_21
+  - first:
+      213: 4770327971919040408
+    second: Dogee1_22
+  - first:
+      213: 8969500234000296767
+    second: Dogee1_23
+  - first:
+      213: 2776754449255136536
+    second: Dogee1_24
+  - first:
+      213: 1692366485371239638
+    second: Dogee1_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dogee1_0
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 739
+        width: 103
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2011d8354c37b5850800000000000000
+      internalID: 6366809785270866178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_1
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 943
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e572319790b09390800000000000000
+      internalID: -7813551188465256989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 714
+        width: 167
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ec31de5de8d8130800000000000000
+      internalID: 3570667129031347817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 718
+        width: 166
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e1b4370b9ba31c0800000000000000
+      internalID: -4523098708240556523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 729
+        width: 104
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369912492eb551d30800000000000000
+      internalID: 4401525239530494307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_5
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 726
+        width: 108
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf3e0423e7e1730800000000000000
+      internalID: 3971750675689503434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_6
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 718
+        width: 165
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307d5c228d5996b10800000000000000
+      internalID: 1975274667107538691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_7
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 714
+        width: 167
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecd38bf0e0a8bbf0800000000000000
+      internalID: -308319686322037536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 383
+        width: 184
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff83d65db7b2f980800000000000000
+      internalID: -8506534722316038153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_9
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 382
+        width: 202
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661e3b9f277d77350800000000000000
+      internalID: 6014512716192145766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_10
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 558
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14416f2aa369ec140800000000000000
+      internalID: 4741892636254016577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_11
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 546
+        width: 244
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94542f9db89a38d0800000000000000
+      internalID: -2865810272681700195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_12
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 530
+        width: 243
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee930108ef5a86fe0800000000000000
+      internalID: -1195523188578043410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_13
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 539
+        width: 240
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9bb085131ebee60800000000000000
+      internalID: 7992729565745887687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_14
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 382
+        width: 180
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f3127f10c762730800000000000000
+      internalID: 3974000069084004129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_15
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 558
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f9bca962c42d30800000000000000
+      internalID: 4405860094600411473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_16
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 383
+        width: 185
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4575f5578c9d07360800000000000000
+      internalID: 7165466462132328276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_17
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 453
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501a5d91e68dfb90800000000000000
+      internalID: -7206455525157236653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 343
+        width: 241
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20bc330c8dffff90800000000000000
+      internalID: -6917531724826234834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_19
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 334
+        width: 243
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41ea018ce6398bd0800000000000000
+      internalID: -2627508518188818102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_20
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 349
+        width: 248
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea50a50721bf47a0800000000000000
+      internalID: -6390694565059208477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_21
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 453
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1380a15260cef3b0800000000000000
+      internalID: -5476728568327142629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_22
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 81
+        width: 113
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f0854240c933240800000000000000
+      internalID: 4770327971919040408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_23
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 86
+        width: 112
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bee5cb0f01a7c70800000000000000
+      internalID: 8969500234000296767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_24
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 86
+        width: 113
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d7650b573098620800000000000000
+      internalID: 2776754449255136536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dogee1_25
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 84
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc34561a5e7c7710800000000000000
+      internalID: 1692366485371239638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

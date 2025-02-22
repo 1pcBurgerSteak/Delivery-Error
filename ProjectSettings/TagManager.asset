@@ -13,6 +13,7 @@ TagManager:
   - Min
   - Maximum
   - Audio
+  - PlayerMax
   layers:
   - Default
   - TransparentFX
@@ -58,4 +59,7 @@ TagManager:
     locked: 0
   - name: Building
     uniqueID: 381502633
+    locked: 0
+  - name: anomaly
+    uniqueID: 161315263
     locked: 0
