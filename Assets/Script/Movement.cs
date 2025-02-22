@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    AudioManager audioManager;
     public float moveSpeed = 5f;
     public float turnSpeed = 100f;
     public float fuel = 100;
@@ -18,6 +19,10 @@ public class Movement : MonoBehaviour
    
     private DOG dog;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         manager = FindObjectOfType<Manager>();
@@ -58,12 +63,14 @@ public class Movement : MonoBehaviour
     {
         if (collision.CompareTag("Coin"))
         {
+            audioManager.PlaySFX(audioManager.coin);
             manager.UpdateCoin(100);
             Destroy(collision.gameObject);
         }
 
         if (collision.CompareTag("Delivery"))
         {
+            audioManager.PlaySFX(audioManager.coin);
             Deliver deliverScript = collision.GetComponent<Deliver>();
             manager.UpdateDelivery(deliverScript.assignedNum);
             Destroy(collision.gameObject);

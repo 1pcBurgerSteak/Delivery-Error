@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Police : MonoBehaviour
 {
+    AudioManager audioManager;
     public Transform target;
     public GameObject maximum;
     public GameObject minimum;
@@ -17,6 +18,10 @@ public class Police : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();

@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    AudioManager audioManager;
     int coinCollected = 0;
 
     public static PlayerStats instance;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     //void Awake()
     //{
 
@@ -37,7 +43,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (collision.collider.CompareTag("Coin"))
         {
-
+            audioManager.PlaySFX(audioManager.coin);
         }
     }
 }

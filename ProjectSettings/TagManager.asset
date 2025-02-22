@@ -7,6 +7,12 @@ TagManager:
   - Delivery
   - Coin
   - Shop
+  - Minimum
+  - Police
+  - Max
+  - Min
+  - Maximum
+  - Audio
   layers:
   - Default
   - TransparentFX

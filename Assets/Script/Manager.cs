@@ -5,9 +5,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
 
 public class Manager : MonoBehaviour
 {
+    AudioManager audioManager;
     //public static Manager Instance;
     public int delivered = 0;
     public int counts = 0;
@@ -38,6 +40,11 @@ public class Manager : MonoBehaviour
     public GameObject police;
     //public GameObject[] baricade;
     public GameObject robber;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     //public static Manager Instance
     //{
@@ -248,16 +255,19 @@ public class Manager : MonoBehaviour
            if (val == 1)
         {
             Dog.SetActive(true);
+         
         } else if (val == 2) {
 
             police.SetActive(true);
             Dog.SetActive(false);
+            audioManager.PlaySFX(audioManager.police_car);
         }
         else if (val == 3)
         {
 
             robber.SetActive(true);
             police.SetActive(false);
+            audioManager.StopSFX();
         }
     }
 }

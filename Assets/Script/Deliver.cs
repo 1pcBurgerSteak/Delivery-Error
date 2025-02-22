@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Deliver : MonoBehaviour
 {
+    AudioManager audioManager;
+
     public static Deliver instance;
     public int assignedNum = 0;
 
     void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
 
         if (instance == null)
         {
@@ -17,6 +20,7 @@ public class Deliver : MonoBehaviour
         }
         else
         {
+            audioManager.PlaySFX(audioManager.coin);
             Destroy(gameObject);
         }
 

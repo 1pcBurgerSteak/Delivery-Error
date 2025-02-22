@@ -6,6 +6,8 @@ using static UnityEngine.GraphicsBuffer;
 
 public class SpawnTarget : MonoBehaviour
 {
+    AudioManager audioManager;
+
     public GameObject targetPrefab;
     public Button[] customerList;
     public Transform[] spawnLocation;
@@ -16,6 +18,11 @@ public class SpawnTarget : MonoBehaviour
     public GameObject phoneHome;
     public GameObject upgradePanel;
     public GameObject arrowUI;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
 
@@ -33,6 +40,7 @@ public class SpawnTarget : MonoBehaviour
 
     public void TargetSpawn()
     {
+        audioManager.PlaySFX(audioManager.click);
         GameObject spawnedTarget = Instantiate(targetPrefab, spawnLocation[Random.Range(0, spawnLocation.Length) ].position, Quaternion.identity);
         point.target = spawnedTarget.transform;
 
