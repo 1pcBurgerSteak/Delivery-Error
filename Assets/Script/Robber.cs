@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class Robber : MonoBehaviour
 {
@@ -21,9 +22,12 @@ public class Robber : MonoBehaviour
     public Transform checker2;
     public Transform checker3;
     public Transform checker4;
+
+    private Manager manager;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        manager = FindObjectOfType<Manager>();
     }
     public void FixedUpdate()
     {
@@ -62,6 +66,8 @@ public class Robber : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             stop = true;
+            manager.UpdateHealth(5);
+
             Debug.Log("health - 1");
             //Vector2 knockbackDirection = transform.position - collision.transform.position;
             //rb.AddForce(knockbackDirection.normalized * knockbackForce, ForceMode2D.Impulse);

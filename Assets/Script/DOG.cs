@@ -27,7 +27,7 @@ public class DOG : MonoBehaviour
     public bool isleft;
     public bool isright;
     private Rigidbody2D rb;
-    
+    private Manager manage;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -39,7 +39,7 @@ public class DOG : MonoBehaviour
         isdown = false;
         isleft = false;
         isright = false;
-
+        manage = FindObjectOfType<Manager>();
     //dright.SetActive(true);
     //dleft.SetActive(false);
     //dup.SetActive(false);
@@ -210,6 +210,8 @@ public class DOG : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            manage.UpdateHealth(5);
+
             Debug.Log("health - 1");
             //Vector2 knockbackDirection = transform.position - collision.transform.position;
             //rb.AddForce(knockbackDirection.normalized * knockbackForce, ForceMode2D.Impulse);

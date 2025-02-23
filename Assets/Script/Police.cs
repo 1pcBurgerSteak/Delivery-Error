@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class Police : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class Police : MonoBehaviour
     public float knockbackForce = 5f;
 
     private Rigidbody2D rb;
-
+    private Manager manager;
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -32,6 +33,7 @@ public class Police : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         movem = FindObjectOfType<Movement>();
         sp = GetComponent<SpriteRenderer>();
+        manager = FindObjectOfType<Manager>();
     }
     public void FixedUpdate()
     {
@@ -91,6 +93,8 @@ public class Police : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            manager.UpdateHealth(5);
+
             Debug.Log("health - 1");
             //Vector2 knockbackDirection = transform.position - collision.transform.position;
             //rb.AddForce(knockbackDirection.normalized * knockbackForce, ForceMode2D.Impulse);
