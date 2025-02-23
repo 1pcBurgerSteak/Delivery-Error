@@ -173,7 +173,7 @@ public class Manager : MonoBehaviour
 
         if (delivered == 5)
         {
-            for(int i = 0; i <= deliveryButton.Length; i++)
+            for(int i = 0; i < deliveryButton.Length; i++)
             {
                 deliveryButton[i].interactable = true;
             }

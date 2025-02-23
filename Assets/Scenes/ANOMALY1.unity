@@ -10249,9 +10249,9 @@ MonoBehaviour:
   speedSlider: {fileID: 651623698}
   Dog: {fileID: 1964774699}
   police: {fileID: 802296866}
-  baricade: {fileID: 0}
+  baricade: {fileID: 1541581987}
   robber: {fileID: 1976385631}
-  UFO: {fileID: 0}
+  UFO: {fileID: 254167968}
 --- !u!1 &1367729886
 GameObject:
   m_ObjectHideFlags: 0
