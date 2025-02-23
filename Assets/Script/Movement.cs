@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
     float timer = 0f;
     float fuelDecreaseInterval = 1f;
 
-   
+    private Police police;
     private DOG dog;
 
     private void Awake()
@@ -25,6 +25,7 @@ public class Movement : MonoBehaviour
     }
     private void Start()
     {
+        police = FindObjectOfType<Police>();
         manager = FindObjectOfType<Manager>();
         dog = FindObjectOfType<DOG>();
     }
@@ -86,7 +87,7 @@ public class Movement : MonoBehaviour
         {
             chase = true;
         }
-        if (collision.gameObject.CompareTag("Min") && dog.back == false)
+        if (collision.gameObject.CompareTag("Min") && police.back == false)
         {
             chase2 = true;
         }

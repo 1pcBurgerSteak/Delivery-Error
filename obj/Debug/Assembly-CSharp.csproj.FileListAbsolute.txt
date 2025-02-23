@@ -333,3 +333,7 @@ C:\Users\User\Documents\GitHub\Delivery-Error\obj\Debug\Assembly-CSharp.csproj.C
 C:\Users\User\Documents\GitHub\Delivery-Error\obj\Debug\Assembly.44154EF1.Up2Date
 C:\Users\User\Documents\GitHub\Delivery-Error\obj\Debug\Assembly-CSharp.dll
 C:\Users\User\Documents\GitHub\Delivery-Error\obj\Debug\Assembly-CSharp.pdb
+C:\Users\User\Documents\GitHub\Delivery-Error\Temp\Bin\Debug\Cinemachine.dll
+C:\Users\User\Documents\GitHub\Delivery-Error\Temp\Bin\Debug\com.unity.cinemachine.editor.dll
+C:\Users\User\Documents\GitHub\Delivery-Error\Temp\Bin\Debug\Cinemachine.pdb
+C:\Users\User\Documents\GitHub\Delivery-Error\Temp\Bin\Debug\com.unity.cinemachine.editor.pdb

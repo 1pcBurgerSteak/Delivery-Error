@@ -14,16 +14,37 @@ public class Robber : MonoBehaviour
     public float knockbackForce = 5f;
 
     private Rigidbody2D rb;
+    public Sprite[] sprite;
+    public SpriteRenderer sp;
 
+    public Transform checker1;
+    public Transform checker2;
+    public Transform checker3;
+    public Transform checker4;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
     public void FixedUpdate()
     {
+        if (target.position.x < checker1.position.x && target.position.y <= checker1.position.y)
+        {
+            sp.sprite = sprite[0];
+        }
+        else if (target.position.x > checker2.position.x && target.position.y <= checker2.position.y)
+        {
+            sp.sprite = sprite[1];
+        }
+        else if (target.position.y < checker4.position.y && target.position.x > checker4.position.x)
+        {
+            sp.sprite = sprite[2];
+        }
+        else if (target.position.y > checker3.position.y && target.position.x > checker3.position.x)
+        {
+            sp.sprite = sprite[3];
+        }
 
-      
-            transform.position = Vector3.MoveTowards(transform.position, target.position, 3 * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, target.position, 3 * Time.deltaTime);
         
 
           
