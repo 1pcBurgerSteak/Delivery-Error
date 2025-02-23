@@ -210,7 +210,7 @@ public class DOG : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            manage.UpdateHealth(5);
+            manage.UpdateHealth(2);
 
             Debug.Log("health - 1");
             //Vector2 knockbackDirection = transform.position - collision.transform.position;

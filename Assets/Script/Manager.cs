@@ -9,8 +9,13 @@ using System;
 
 public class Manager : MonoBehaviour
 {
+    public GameObject uiCanvas;
+    public GameObject winPanel;
+    public GameObject losePanel;
+
     AudioManager audioManager;
     public int delivered = 0;
+    public int deliveryNeeded = 0;
     public int counts = 0;
     public int coins = 0;
     public float currentFuel = 100;
@@ -48,10 +53,9 @@ public class Manager : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1;
         LoadStats();
         fuelArrowTransform = fuelArrow.GetComponent<RectTransform>();
-
-
     }
 
     void LateUpdate()
@@ -60,17 +64,24 @@ public class Manager : MonoBehaviour
         spawn(anomalycount);
         UpdateCoin(coins);
         UpdateFuel(currentFuel);
-        UpdateHealth(currentDamage);
+        //UpdateHealth(currentDamage);
 
-        if (delivered == 5)
+        if (delivered >= 5)
         {
-            for(int i = 0; i < deliveryButton.Length; i++)
+            for (int i = 0; i < deliveryButton.Length; i++)
             {
                 deliveryButton[i].interactable = true;
             }
-            anomalycount = +1;
+            anomalycount += 1;
             delivered = 0;
+        }
 
+        if(deliveryNeeded >= 40)
+        {
+            Debug.Log("kingina");
+            Time.timeScale = 0;
+            uiCanvas.SetActive(false);
+            winPanel.SetActive(true);
         }
     }
 
@@ -85,7 +96,7 @@ public class Manager : MonoBehaviour
 
     public void LoadStats()
     {
-        currentFuel = PlayerPrefs.GetInt("Fuel", 100);
+        currentFuel = PlayerPrefs.GetFloat("Fuel", 100);
         currentSpeed = PlayerPrefs.GetFloat("Speed", 5f);
         coins = PlayerPrefs.GetInt("Coins", 0);
         currentDamage = PlayerPrefs.GetInt("Damage", 100);
@@ -94,6 +105,14 @@ public class Manager : MonoBehaviour
     public void UpdateHealth(int damage)
     {
         currentDamage -= damage;
+        if (currentDamage <= 0)
+        {
+            Time.timeScale = 0;
+            Debug.Log("tangina");
+            currentDamage = 0;
+            uiCanvas.SetActive(false);
+            losePanel.SetActive(true);
+        }
     }
 
     public void UpdateCoin(int coins)
@@ -106,34 +125,41 @@ public class Manager : MonoBehaviour
     {
         currentFuel = fuel;
         fuelArrowTransform.localRotation = Quaternion.Euler(0, 0, currentFuel);
+        if (currentFuel <= 0)
+        {
+            Time.timeScale = 0;
+            Debug.Log("hayop");
+            currentFuel = 0;
+            uiCanvas.SetActive(false);
+            losePanel.SetActive(true);
+        }
     }
 
     public void UpdateDelivery(int assignedNum)
     {
         delivered += 1;
+        deliveryNeeded += 1;
         deliveryButton[assignedNum].interactable = false;
         arrowUI.SetActive(false);
         phoneContent.SetActive(true);
         if (delivered >= 5)
         {
-
+            Time.timeScale = 0;
             shop.SetActive(true);
             point.target = shop.transform;
             phoneContent.SetActive(false);
             arrowUI.SetActive(true);
-            finishedPanel.SetActive(true);
-            for(int i = 0; i < deliveryButton.Length; i++)
+            for (int i = 0; i < deliveryButton.Length; i++)
             {
                 deliveryButton[i].interactable = true;
             }
         }
-
-
     }
 
     public void ShowUpgrade()
     {
         upgradePanel.SetActive(true);
+        UpdateCoin(50);
         fuelSlider.value = currentFuel;
         healthSlider.value = currentDamage;
         if (currentSpeed == 5f)
@@ -149,49 +175,44 @@ public class Manager : MonoBehaviour
     public void Continue()
     {
         SaveStats();
+        Time.timeScale = 1;
     }
+
     public void count()
     {
-        counts = counts + 1;
+        counts += 1;
         Debug.Log(counts);
     }
 
     public void spawn(int val)
     {
-
         if (val == 1)
         {
             Dog.SetActive(true);
-
-        } else if (val == 2) {
-
+        }
+        else if (val == 2)
+        {
             police.SetActive(true);
             audioManager.PlaySFX(audioManager.police_car);
         }
         else if (val == 3)
         {
-
             robber.SetActive(true);
             audioManager.StopSFX();
-
-
         }
         else if (val == 4)
         {
-
             baricade.SetActive(true);
-           
         }
         else if (val == 5)
         {
-
             UFO.SetActive(true);
-            
         }
     }
 
     public void NewGame()
     {
+        Time.timeScale = 1;
         delivered = 0;
         counts = 0;
         coins = 0;
@@ -200,7 +221,14 @@ public class Manager : MonoBehaviour
         currentSpeed = 5f;
         anomalycount = 0;
 
-        SaveStats();
+        // Update PlayerPrefs to default values
+        PlayerPrefs.SetFloat("Fuel", 100f);
+        PlayerPrefs.SetFloat("Speed", 5f);
+        PlayerPrefs.SetInt("Coins", 0);
+        PlayerPrefs.SetInt("Damage", 100);
+        PlayerPrefs.Save();
+
+        // Load default stats
         LoadStats();
 
         for (int i = 0; i < deliveryButton.Length; i++)
@@ -226,5 +254,4 @@ public class Manager : MonoBehaviour
         UpdateFuel(currentFuel);
         UpdateHealth(currentDamage);
     }
-
 }

@@ -18,7 +18,8 @@ public class Panel : MonoBehaviour
 
     public void NewGame()
     {
-        manager.NewGame();
+        SceneManager.LoadScene(0);
+        //manager.NewGame();
     }
     public void Quit()
     {

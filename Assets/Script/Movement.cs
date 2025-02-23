@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour
         if (collision.CompareTag("Coin"))
         {
             audioManager.PlaySFX(audioManager.coin);
-            manager.UpdateCoin(100);
+            manager.UpdateCoin(2);
             Destroy(collision.gameObject);
         }
 

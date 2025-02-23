@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Movement.cs" />
     <Compile Include="Assets\Script\DOG.cs" />
+    <Compile Include="Assets\Panel.cs" />
     <Compile Include="Assets\Script\ArrowUI.cs" />
     <Compile Include="Assets\Script\buttonHover.cs" />
     <Compile Include="Assets\Script\Deliver.cs" />
@@ -77,7 +78,7 @@
     <Compile Include="Assets\Script\PlayerSprite.cs" />
     <Compile Include="Assets\Script\Baricade.cs" />
     <Compile Include="Assets\Script\SceneManage.cs" />
-    <Compile Include="Assets\Panel.cs" />
+    <Compile Include="Assets\Coin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
