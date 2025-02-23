@@ -1,7 +1,130 @@
 fileFormatVersion: 2
 guid: 095314d3770d36a40876a7a93e5999bb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7007238031520432363
+    second: UPGRADE BUTTON_0
+  - first:
+      213: 3316822567812382732
+    second: UPGRADE BUTTON_1
+  - first:
+      213: -532845064181718329
+    second: UPGRADE BUTTON_2
+  - first:
+      213: 6532970584107478636
+    second: UPGRADE BUTTON_3
+  - first:
+      213: -1105883368404993556
+    second: UPGRADE BUTTON_4
+  - first:
+      213: 2712644846835615621
+    second: UPGRADE BUTTON_5
+  - first:
+      213: 6240179235368425316
+    second: UPGRADE BUTTON_6
+  - first:
+      213: -8339394007404765318
+    second: UPGRADE BUTTON_7
+  - first:
+      213: 9158618410131726707
+    second: UPGRADE BUTTON_8
+  - first:
+      213: -1606124732205595550
+    second: UPGRADE BUTTON_9
+  - first:
+      213: 6552258198352952795
+    second: UPGRADE BUTTON_10
+  - first:
+      213: 2133019563325154902
+    second: UPGRADE BUTTON_11
+  - first:
+      213: 36893729269302326
+    second: UPGRADE BUTTON_12
+  - first:
+      213: 7652847760431050798
+    second: UPGRADE BUTTON_13
+  - first:
+      213: 8021685738143933275
+    second: UPGRADE BUTTON_14
+  - first:
+      213: 2434645396025530439
+    second: UPGRADE BUTTON_15
+  - first:
+      213: 8002722700719299664
+    second: UPGRADE BUTTON_16
+  - first:
+      213: 810520584945961002
+    second: UPGRADE BUTTON_17
+  - first:
+      213: -1068464263889642559
+    second: UPGRADE BUTTON_18
+  - first:
+      213: -2715195543461014549
+    second: UPGRADE BUTTON_19
+  - first:
+      213: 3803568676252815675
+    second: UPGRADE BUTTON_20
+  - first:
+      213: 8660818672726997601
+    second: UPGRADE BUTTON_21
+  - first:
+      213: 1261105520830463635
+    second: UPGRADE BUTTON_22
+  - first:
+      213: -5121812128570150945
+    second: UPGRADE BUTTON_23
+  - first:
+      213: -3383902574829630297
+    second: UPGRADE BUTTON_24
+  - first:
+      213: 9148386830522062124
+    second: UPGRADE BUTTON_25
+  - first:
+      213: -6129332778800823994
+    second: UPGRADE BUTTON_26
+  - first:
+      213: 5068833502022774286
+    second: UPGRADE BUTTON_27
+  - first:
+      213: -8838870580748198630
+    second: UPGRADE BUTTON_28
+  - first:
+      213: -7811586473432456057
+    second: UPGRADE BUTTON_29
+  - first:
+      213: 8276174749209473090
+    second: UPGRADE BUTTON_30
+  - first:
+      213: 3088642358913306349
+    second: UPGRADE BUTTON_31
+  - first:
+      213: 2193755334966494631
+    second: UPGRADE BUTTON_32
+  - first:
+      213: 5553004001370740709
+    second: UPGRADE BUTTON_33
+  - first:
+      213: -8328890726025946002
+    second: UPGRADE BUTTON_34
+  - first:
+      213: 664233049141335553
+    second: UPGRADE BUTTON_35
+  - first:
+      213: -4538274517634641943
+    second: UPGRADE BUTTON_36
+  - first:
+      213: 826769088131428797
+    second: UPGRADE BUTTON_37
+  - first:
+      213: -8577252500723829139
+    second: UPGRADE BUTTON_38
+  - first:
+      213: -4384844657762251207
+    second: UPGRADE BUTTON_39
+  - first:
+      213: 3463332745868588662
+    second: UPGRADE BUTTON_40
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +164,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +198,882 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 963
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0026d1dd5be3160800000000000000
+      internalID: 7007238031520432363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 963
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00c4795d88b70e20800000000000000
+      internalID: 3316822567812382732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 963
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2e02dbc34fa98f0800000000000000
+      internalID: -532845064181718329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_3
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 963
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e6dc11226c9aa50800000000000000
+      internalID: 6532970584107478636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_4
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 963
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce935378fec17a0f0800000000000000
+      internalID: -1105883368404993556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 903
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5874e61bd1045a520800000000000000
+      internalID: 2712644846835615621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 903
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46757e2e3f1999650800000000000000
+      internalID: 6240179235368425316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 903
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f1e929555844c80800000000000000
+      internalID: -8339394007404765318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_8
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 903
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37121496be2f91f70800000000000000
+      internalID: 9158618410131726707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_9
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 903
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2648aefc016e5b9e0800000000000000
+      internalID: -1606124732205595550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_10
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 796
+        width: 465
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddf775bd1c4eea50800000000000000
+      internalID: 6552258198352952795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 839
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65664faddf10a9d10800000000000000
+      internalID: 2133019563325154902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 839
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634498bb6a2138000800000000000000
+      internalID: 36893729269302326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 839
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20f2a8dd70643a60800000000000000
+      internalID: 7652847760431050798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_14
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 839
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53e2e99da0c25f60800000000000000
+      internalID: 8021685738143933275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_15
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 839
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7485420a61999c120800000000000000
+      internalID: 2434645396025530439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 779
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c145465e16f0f60800000000000000
+      internalID: 8002722700719299664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 779
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2888dc7d2c8f3b00800000000000000
+      internalID: 810520584945961002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 779
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb98a7b96d0c21f0800000000000000
+      internalID: -1068464263889642559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_19
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 779
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be35848f900b15ad0800000000000000
+      internalID: -2715195543461014549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_20
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 779
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b311ad21f8df8c430800000000000000
+      internalID: 3803568676252815675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 722
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a76f322b8613870800000000000000
+      internalID: 8660818672726997601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_22
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 722
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e32612ac8508110800000000000000
+      internalID: 1261105520830463635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_23
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 722
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfe94e610babe8b0800000000000000
+      internalID: -5121812128570150945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_24
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 722
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac00c07986f901d0800000000000000
+      internalID: -3383902574829630297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_25
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 722
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2511252a5995fe70800000000000000
+      internalID: 9148386830522062124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_26
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 694
+        width: 717
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6414b61ff4c30faa0800000000000000
+      internalID: -6129332778800823994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 512
+        width: 717
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eaaa9d63d185640800000000000000
+      internalID: 5068833502022774286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_28
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 523
+        width: 465
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d5ad28906065580800000000000000
+      internalID: -8838870580748198630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_29
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 529
+        width: 108
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784efce6d7ba79390800000000000000
+      internalID: -7811586473432456057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_30
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 527
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24030b9d511ead270800000000000000
+      internalID: 8276174749209473090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_31
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 402
+        width: 717
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee80417cdf0dda20800000000000000
+      internalID: 3088642358913306349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_32
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 431
+        width: 717
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5cbc8aad8c17e10800000000000000
+      internalID: 2193755334966494631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 136
+        width: 465
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7960ad7bb301d40800000000000000
+      internalID: 5553004001370740709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_34
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 135
+        width: 465
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c9d265306d96c80800000000000000
+      internalID: -8328890726025946002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_35
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 243
+        width: 465
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106d42e5074d73900800000000000000
+      internalID: 664233049141335553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_36
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 188
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef0e2bfe5fc401c0800000000000000
+      internalID: -4538274517634641943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_37
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 188
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f851fa16497b00800000000000000
+      internalID: 826769088131428797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_38
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 188
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6676897b4a77f880800000000000000
+      internalID: -8577252500723829139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_39
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 188
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ecfc20407e523c0800000000000000
+      internalID: -4384844657762251207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPGRADE BUTTON_40
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 188
+        width: 147
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676b97868ca301030800000000000000
+      internalID: 3463332745868588662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
