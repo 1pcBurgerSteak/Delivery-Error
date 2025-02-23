@@ -54,11 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Movement.cs" />
-    <Compile Include="Assets\Script\DOG.cs" />
     <Compile Include="Assets\Script\ArrowUI.cs" />
+    <Compile Include="Assets\Script\buttonHover.cs" />
     <Compile Include="Assets\Script\Deliver.cs" />
-    <Compile Include="Assets\Script\Robber.cs" />
-    <Compile Include="Assets\Script\Police.cs" />
+    <Compile Include="Assets\Script\buttonManager.cs" />
     <Compile Include="Assets\Script\UFO.cs" />
     <Compile Include="Assets\Script\Tambay.cs" />
     <Compile Include="Assets\Script\Upgrades.cs" />
@@ -66,6 +65,7 @@
     <Compile Include="Assets\Script\Target.cs" />
     <Compile Include="Assets\Script\SpawnTarget.cs" />
     <Compile Include="Assets\AudioManager.cs" />
+    <Compile Include="Assets\Script\optionsMenu.cs" />
     <Compile Include="Assets\Script\Point.cs" />
     <Compile Include="Assets\Script\PlayerStats.cs" />
     <Compile Include="Assets\Script\Manager.cs" />
@@ -74,9 +74,8 @@
     <Compile Include="Assets\Script\PlayerSprite.cs" />
     <Compile Include="Assets\Script\Baricade.cs" />
     <Compile Include="Assets\Script\SceneManage.cs" />
-    <Compile Include="Assets\Script\optionsMenu.cs" />
-    <Compile Include="Assets\Script\buttonManager.cs" />
-    <Compile Include="Assets\Script\buttonHover.cs" />
+    <Compile Include="Assets\Script\RandomName.cs" />
+    <Compile Include="Assets\random.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
