@@ -10,7 +10,6 @@ using System;
 public class Manager : MonoBehaviour
 {
     AudioManager audioManager;
-    //public static Manager Instance;
     public int delivered = 0;
     public int counts = 0;
     public int coins = 0;
@@ -47,122 +46,14 @@ public class Manager : MonoBehaviour
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
-    //public static Manager Instance
-    //{
-    //    get
-    //    {
-    //        if (instance == null)
-    //        {
-    //            GameObject obj = new GameObject("Manager");
-    //            instance = obj.AddComponent<Manager>();
-    //            DontDestroyOnLoad(obj);
-    //        }
-    //        return instance;
-    //    }
-    //}
-
-    //void Awake()
-    //{
-
-    //    if (instance == null)
-    //    {
-    //        instance = this;
-    //        DontDestroyOnLoad(gameObject);
-    //    }
-    //    else
-    //    {
-    //        Destroy(gameObject);
-    //    }
-
-
-    //}
-
     void Start()
     {
         LoadStats();
-        //if (coinText == null)
-        //    coinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
-
-        //if (fuelSlider == null)
-        //    fuelSlider = GameObject.Find("FuelSlider").GetComponent<Slider>();
-
-        //if (healthSlider == null)
-        //    healthSlider = GameObject.Find("HealthSlider").GetComponent<Slider>();
-
-        //if (speedSlider == null)
-        //    speedSlider = GameObject.Find("SpeedSlider").GetComponent<Slider>();
-
-        //if (fuelArrow == null)
-        //    fuelArrow = GameObject.Find("Fuel Arrow");
-
-        //if (shop == null)
-        //    shop = GameObject.Find("Shop Location");
-
-        //if (upgradePanel == null)
-        //    upgradePanel = GameObject.Find("Shop UI");
-
-        //if (finishedPanel == null)
-        //    finishedPanel = GameObject.Find("Finish Delivery");
-
-        //if (fuelArrow != null && fuelArrowTransform == null)
-        //    fuelArrowTransform = fuelArrow.GetComponent<RectTransform>();
-
-        //fuelArrow = GameObject.Find("Fuel Arrow");
-        //phoneContent = GameObject.Find("Phone Content");
-        //point = FindObjectOfType<Point>();
-        //arrowUI = GameObject.Find("Arrow");
-        //coinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
-        //fuelSlider = GameObject.Find("FuelSlider").GetComponent<Slider>();
-        //healthSlider = GameObject.Find("HealthSlider").GetComponent<Slider>();
-        //speedSlider = GameObject.Find("SpeedSlider").GetComponent<Slider>();
-        //fuelArrowTransform = GameObject.Find("fuelArrowTransform").GetComponent<RectTransform>();
-        //shop = GameObject.Find("Shop Location");
-        //upgradePanel = GameObject.Find("Shop UI");
-        //finishedPanel = GameObject.Find("Finish Delivery");
         fuelArrowTransform = fuelArrow.GetComponent<RectTransform>();
 
 
     }
-    //void OnEnable()
-    //{
-    //    SceneManager.sceneLoaded += OnSceneLoaded;
-    //}
 
-    //void OnDisable()
-    //{
-    //    SceneManager.sceneLoaded -= OnSceneLoaded;
-    //}
-
-    //void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    //{
-
-    //    if (coinText == null)
-    //        coinText = GameObject.Find("CoinText")?.GetComponent<TextMeshProUGUI>();
-
-    //    if (fuelSlider == null)
-    //        fuelSlider = GameObject.Find("FuelSlider")?.GetComponent<Slider>();
-
-    //    if (healthSlider == null)
-    //        healthSlider = GameObject.Find("HealthSlider")?.GetComponent<Slider>();
-
-    //    if (speedSlider == null)
-    //        speedSlider = GameObject.Find("SpeedSlider")?.GetComponent<Slider>();
-
-    //    if (fuelArrow == null)
-    //        fuelArrow = GameObject.Find("Fuel Arrow");
-
-    //    if (shop == null)
-    //        shop = GameObject.Find("Shop Location");
-
-    //    if (upgradePanel == null)
-    //        upgradePanel = GameObject.Find("Shop UI");
-
-    //    if (finishedPanel == null)
-    //        finishedPanel = GameObject.Find("Finish Delivery");
-
-    //    if (fuelArrow != null && fuelArrowTransform == null)
-    //        fuelArrowTransform = fuelArrow.GetComponent<RectTransform>();
-    //}
     void LateUpdate()
     {
         arrowUI = GameObject.Find("Arrow");
@@ -214,7 +105,6 @@ public class Manager : MonoBehaviour
     public void UpdateFuel(float fuel)
     {
         currentFuel = fuel;
-        //float newRotation = fuel;
         fuelArrowTransform.localRotation = Quaternion.Euler(0, 0, currentFuel);
     }
 
@@ -224,7 +114,7 @@ public class Manager : MonoBehaviour
         deliveryButton[assignedNum].interactable = false;
         arrowUI.SetActive(false);
         phoneContent.SetActive(true);
-        if (delivered >= 1)
+        if (delivered >= 5)
         {
 
             shop.SetActive(true);
@@ -232,6 +122,10 @@ public class Manager : MonoBehaviour
             phoneContent.SetActive(false);
             arrowUI.SetActive(true);
             finishedPanel.SetActive(true);
+            for(int i = 0; i < deliveryButton.Length; i++)
+            {
+                deliveryButton[i].interactable = true;
+            }
         }
 
 
@@ -272,14 +166,12 @@ public class Manager : MonoBehaviour
         } else if (val == 2) {
 
             police.SetActive(true);
-            //Dog.SetActive(false);
             audioManager.PlaySFX(audioManager.police_car);
         }
         else if (val == 3)
         {
 
             robber.SetActive(true);
-            //police.SetActive(false);
             audioManager.StopSFX();
 
 
@@ -288,25 +180,51 @@ public class Manager : MonoBehaviour
         {
 
             baricade.SetActive(true);
-            //robber.SetActive(false);
            
         }
         else if (val == 5)
         {
 
             UFO.SetActive(true);
-            //baricade.SetActive(false);
             
         }
-        //else if (val == 6)
-        //{
+    }
 
-        //    UFO.SetActive(true);
-        //    baricade.SetActive(true);
-        //    police.SetActive(true);
-        //    robber.SetActive(true);
-        //    Dog.SetActive(true);
-            
-        //}
-    } 
+    public void NewGame()
+    {
+        delivered = 0;
+        counts = 0;
+        coins = 0;
+        currentFuel = 100f;
+        currentDamage = 100;
+        currentSpeed = 5f;
+        anomalycount = 0;
+
+        SaveStats();
+        LoadStats();
+
+        for (int i = 0; i < deliveryButton.Length; i++)
+        {
+            deliveryButton[i].interactable = true;
+        }
+
+        arrowUI.SetActive(false);
+        phoneContent.SetActive(false);
+        finishedPanel.SetActive(false);
+        shop.SetActive(false);
+        upgradePanel.SetActive(false);
+
+        // Reset spawn objects
+        Dog.SetActive(false);
+        police.SetActive(false);
+        baricade.SetActive(false);
+        robber.SetActive(false);
+        UFO.SetActive(false);
+
+        // Update UI elements
+        UpdateCoin(coins);
+        UpdateFuel(currentFuel);
+        UpdateHealth(currentDamage);
+    }
+
 }
