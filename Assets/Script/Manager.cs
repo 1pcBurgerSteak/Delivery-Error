@@ -123,7 +123,7 @@ public class Manager : MonoBehaviour
 
     public void UpdateFuel(float fuel)
     {
-        currentFuel = fuel;
+        currentFuel += fuel;
         fuelArrowTransform.localRotation = Quaternion.Euler(0, 0, currentFuel);
         if (currentFuel <= 0)
         {
