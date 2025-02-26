@@ -27,12 +27,12 @@ public class Coin : MonoBehaviour
 
     void SetRandomSpawnTime()
     {
-        spawnTime = Random.Range(2f, 10f);
+        spawnTime = UnityEngine.Random.Range(2f, 10f);
     }
 
     void SpawnCoin()
     {
-        Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
+        Transform spawnPoint = spawnPoints[UnityEngine.Random.Range(0, spawnPoints.Length)];
         Instantiate(coinPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }

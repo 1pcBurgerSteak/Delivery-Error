@@ -38,7 +38,7 @@ public class Baricade : MonoBehaviour
 
     public void spawner()
     {
-        GameObject newBlock = Instantiate(Bar, spawn[Random.Range(0, spawn.Length)].position, Quaternion.identity);
+        GameObject newBlock = Instantiate(Bar, spawn[UnityEngine.Random.Range(0, spawn.Length)].position, Quaternion.identity);
         spawnedBlocks.Add(newBlock);
     }
 }

@@ -13,16 +13,16 @@ public class Deliver : MonoBehaviour
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
 
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            audioManager.PlaySFX(audioManager.coin);
-            Destroy(gameObject);
-        }
+        //if (instance == null)
+        //{
+        //    instance = this;
+        //    DontDestroyOnLoad(gameObject);
+        //}
+        //else
+        //{
+        //    audioManager.PlaySFX(audioManager.coin);
+        //    Destroy(gameObject);
+        //}
 
 
     }

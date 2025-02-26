@@ -41,7 +41,7 @@ public class SpawnTarget : MonoBehaviour
     public void TargetSpawn()
     {
         audioManager.PlaySFX(audioManager.click);
-        GameObject spawnedTarget = Instantiate(targetPrefab, spawnLocation[Random.Range(0, spawnLocation.Length) ].position, Quaternion.identity);
+        GameObject spawnedTarget = Instantiate(targetPrefab, spawnLocation[UnityEngine.Random.Range(0, spawnLocation.Length) ].position, Quaternion.identity);
         point.target = spawnedTarget.transform;
 
         deliverScript = spawnedTarget.GetComponent<Deliver>();

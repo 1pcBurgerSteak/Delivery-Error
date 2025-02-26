@@ -97,7 +97,7 @@ private void OnTriggerEnter2D(Collider2D collision)
             habol = false;
            
             back = true;
-            target.transform.position = tp[Random.Range(0, tp.Length)].transform.position;
+            target.transform.position = tp[UnityEngine.Random.Range(0, tp.Length)].transform.position;
           
         }
         

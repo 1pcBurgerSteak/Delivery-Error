@@ -18,7 +18,7 @@ public class Manager : MonoBehaviour
     public int deliveryNeeded = 0;
     public int counts = 0;
     public int coins = 0;
-    public float currentFuel = 100;
+    public float currentFuel = -20;
     public int currentDamage = 100;
     public float currentSpeed = 5f;
     public int anomalycount = 0;
@@ -63,10 +63,10 @@ public class Manager : MonoBehaviour
         arrowUI = GameObject.Find("Arrow");
         spawn(anomalycount);
         UpdateCoin(coins);
-        UpdateFuel(currentFuel);
+        //UpdateFuel(currentFuel);
         //UpdateHealth(currentDamage);
 
-        if (delivered >= 5)
+        if (delivered >= 1)
         {
             for (int i = 0; i < deliveryButton.Length; i++)
             {
@@ -96,7 +96,7 @@ public class Manager : MonoBehaviour
 
     public void LoadStats()
     {
-        currentFuel = PlayerPrefs.GetFloat("Fuel", 100);
+        currentFuel = PlayerPrefs.GetFloat("Fuel", -20);
         currentSpeed = PlayerPrefs.GetFloat("Speed", 5f);
         coins = PlayerPrefs.GetInt("Coins", 0);
         currentDamage = PlayerPrefs.GetInt("Damage", 100);
@@ -123,13 +123,13 @@ public class Manager : MonoBehaviour
 
     public void UpdateFuel(float fuel)
     {
-        currentFuel += fuel;
+        currentFuel = fuel;
         fuelArrowTransform.localRotation = Quaternion.Euler(0, 0, currentFuel);
-        if (currentFuel <= 0)
+        if (currentFuel > 100)
         {
             Time.timeScale = 0;
             Debug.Log("hayop");
-            currentFuel = 0;
+            currentFuel = 80;
             uiCanvas.SetActive(false);
             losePanel.SetActive(true);
         }
@@ -142,9 +142,9 @@ public class Manager : MonoBehaviour
         deliveryButton[assignedNum].interactable = false;
         arrowUI.SetActive(false);
         phoneContent.SetActive(true);
-        if (delivered >= 5)
+        if (delivered >= 1)
         {
-            Time.timeScale = 0;
+            Time.timeScale = 1;
             shop.SetActive(true);
             point.target = shop.transform;
             phoneContent.SetActive(false);
@@ -210,48 +210,48 @@ public class Manager : MonoBehaviour
         }
     }
 
-    public void NewGame()
-    {
-        Time.timeScale = 1;
-        delivered = 0;
-        counts = 0;
-        coins = 0;
-        currentFuel = 100f;
-        currentDamage = 100;
-        currentSpeed = 5f;
-        anomalycount = 0;
+    //public void NewGame()
+    //{
+    //    Time.timeScale = 1;
+    //    delivered = 0;
+    //    counts = 0;
+    //    coins = 0;
+    //    currentFuel = 100f;
+    //    currentDamage = 100;
+    //    currentSpeed = 5f;
+    //    anomalycount = 0;
 
-        // Update PlayerPrefs to default values
-        PlayerPrefs.SetFloat("Fuel", 100f);
-        PlayerPrefs.SetFloat("Speed", 5f);
-        PlayerPrefs.SetInt("Coins", 0);
-        PlayerPrefs.SetInt("Damage", 100);
-        PlayerPrefs.Save();
+    //    // Update PlayerPrefs to default values
+    //    PlayerPrefs.SetFloat("Fuel", 100f);
+    //    PlayerPrefs.SetFloat("Speed", 5f);
+    //    PlayerPrefs.SetInt("Coins", 0);
+    //    PlayerPrefs.SetInt("Damage", 100);
+    //    PlayerPrefs.Save();
 
-        // Load default stats
-        LoadStats();
+    //    // Load default stats
+    //    LoadStats();
 
-        for (int i = 0; i < deliveryButton.Length; i++)
-        {
-            deliveryButton[i].interactable = true;
-        }
+    //    for (int i = 0; i < deliveryButton.Length; i++)
+    //    {
+    //        deliveryButton[i].interactable = true;
+    //    }
 
-        arrowUI.SetActive(false);
-        phoneContent.SetActive(false);
-        finishedPanel.SetActive(false);
-        shop.SetActive(false);
-        upgradePanel.SetActive(false);
+    //    arrowUI.SetActive(false);
+    //    phoneContent.SetActive(false);
+    //    finishedPanel.SetActive(false);
+    //    shop.SetActive(false);
+    //    upgradePanel.SetActive(false);
 
-        // Reset spawn objects
-        Dog.SetActive(false);
-        police.SetActive(false);
-        baricade.SetActive(false);
-        robber.SetActive(false);
-        UFO.SetActive(false);
+    //    // Reset spawn objects
+    //    Dog.SetActive(false);
+    //    police.SetActive(false);
+    //    baricade.SetActive(false);
+    //    robber.SetActive(false);
+    //    UFO.SetActive(false);
 
-        // Update UI elements
-        UpdateCoin(coins);
-        UpdateFuel(currentFuel);
-        UpdateHealth(currentDamage);
-    }
+    //    // Update UI elements
+    //    UpdateCoin(coins);
+    //    UpdateFuel(currentFuel);
+    //    UpdateHealth(currentDamage);
+    //}
 }

@@ -40,12 +40,12 @@ public class DOG : MonoBehaviour
         isleft = false;
         isright = false;
         manage = FindObjectOfType<Manager>();
-    //dright.SetActive(true);
-    //dleft.SetActive(false);
-    //dup.SetActive(false);
-    //ddown.SetActive(false);
-}
-   public void FixedUpdate()
+        //dright.SetActive(true);
+        //dleft.SetActive(false);
+        //dup.SetActive(false);
+        //ddown.SetActive(false);
+    }
+    public void FixedUpdate()
     {
         int baseLayer = 0;
         animate.SetLayerWeight(baseLayer, 1f);
@@ -89,7 +89,7 @@ public class DOG : MonoBehaviour
             isleft = false;
             isup = false;
             isdown = false;
-            
+
             //transform.rotation = Quaternion.Euler(0, 90, 0);
             //dright.SetActive(true);
             //dleft.SetActive(false);
@@ -103,7 +103,7 @@ public class DOG : MonoBehaviour
             isleft = true;
             isup = false;
             isdown = false;
-           
+
             //transform.rotation = Quaternion.Euler(0, -90, 0);
             //dright.SetActive(false);
             //dleft.SetActive(true);
@@ -112,7 +112,7 @@ public class DOG : MonoBehaviour
             Debug.Log("left");
 
         }
-        else if (target.position.y > up.position.y && target.position.x > up.position.x)
+        else if (target.position.y > right.position.y && target.position.x < right.position.x)
         {
             isright = false;
             isleft = false;
@@ -124,10 +124,10 @@ public class DOG : MonoBehaviour
             //dleft.SetActive(true);
             //dup.SetActive(false);
             //ddown.SetActive(false);
-            Debug.Log("left");
+            Debug.Log("up");
 
         }
-        else if (target.position.y < down.position.y && target.position.x > down.position.x)
+        else if (target.position.y < down.position.y && target.position.x > down.position.x )
         {
             isright = false;
             isleft = false;
@@ -139,7 +139,7 @@ public class DOG : MonoBehaviour
             //dleft.SetActive(true);
             //dup.SetActive(false);
             //ddown.SetActive(false);
-            Debug.Log("left");
+            Debug.Log("down");
 
         }
         //else if (target.position.y > transform.position.y && isleft || target.position.y > transform.position.y && isright)
@@ -192,7 +192,7 @@ public class DOG : MonoBehaviour
     }
         
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Maximum"))
         {
